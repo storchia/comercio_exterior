@@ -2,7 +2,22 @@
     color: #f5f5f5;
 }
 
+.card-title {
+    text-align: center!important;
+}
+
 .exper-section {
             margin-top: 8%;
                 margin-bottom: 8%
 }
+
+@media (max-width: 1000px) {
+
+    .nav-footer {
+display: none!important;
+    }
+    .logo-footer-sm {
+        align-items: center !important;
+    }
+}
+
